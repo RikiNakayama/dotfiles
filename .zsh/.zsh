@@ -1,0 +1,1 @@
+/Users/Riki/.dotfiles/.zsh/
