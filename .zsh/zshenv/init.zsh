@@ -4,22 +4,21 @@ umask 022
 stty stop "undef"
 
 # $PATH
-typeset -U path
 path=(
-    # system
-    /bin(N-/)
-    /usr/local/bin(N-/)
-    /usr/bin(N-/)
-    /usr/games(N-/)
-    # user
-    $HOME/bin(N-/)
-    $HOME/scripts(N-/)
-    $HOME/local/bin(N-/)
-    $HOME/local/scripts(N-/)
-    # Debian GNU/Linux
-    /var/lib/gems/*/bin(N-/)
-    # macports
-    /opt/local/bin(N-/)
+	# system
+	/bin(N-/)
+	/usr/local/bin(N-/)
+	/usr/bin(N-/)
+	/usr/games(N-/)
+	# user
+	$HOME/bin(N-/)
+	$HOME/scripts(N-/)
+	$HOME/local/bin(N-/)
+	$HOME/local/scripts(N-/)
+	# debian gnu
+	/var/lib/gems/*/bin(N-/)
+	# macports
+	/opt/local/bin(N-/)
 )
 
 # $SUDO
