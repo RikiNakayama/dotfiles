@@ -35,6 +35,15 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'jnurmine/Zenburn'
 NeoBundle 'vim-scripts/applescript.vim'
 NeoBundle 'vim-scripts/csv.vim'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'vim-scripts/AnsiEsc.vim'
+NeoBundle 'bronson/vim-trailing-whitespace'
+
+" for Rails
+NeoBundle 'tpope/vim-rails'
+
+" for Ruby
+NeoBundle 'tpope/vim-endwise'
 
 NeoBundleLazy 'nosami/Omnisharp', {
     \    'autoload': {'filetypes': ['cs']},
