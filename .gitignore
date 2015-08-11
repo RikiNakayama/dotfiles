@@ -1,0 +1,6 @@
+.DS_Store
+.netrwhist
+*.pyc
+.*_history
+.vim/bundle
+!.vim/bundle/neobundle.vim
