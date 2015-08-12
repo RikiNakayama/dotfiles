@@ -60,6 +60,10 @@ autocmd BufReadPre *.html :set shiftwidth=4
 autocmd BufReadPre *.cs :set expandtab
 autocmd BufReadPre *.cs :set tabstop=4
 autocmd BufReadPre *.cs :set shiftwidth=4
+" Ruby
+autocmd BufReadPre *.rb :set expandtab
+autocmd BufReadPre *.rb :set tabstop=2
+autocmd BufReadPre *.rb :set shiftwidth=2
 
 
 " ファイル保存時コマンド
