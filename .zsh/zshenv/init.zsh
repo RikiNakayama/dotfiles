@@ -57,15 +57,16 @@ fi
 alias lv="less"
 
 # grep
-if type ggrep > /dev/null 2>&1; then
-    alias grep=ggrep
-fi
 typeset -xTU GREP_OPTIONS grep_options " "
 grep_options=(
     "--binary-files=without-match"
     "--exclude=.tmp"
     "--color=auto"
 )
+if type ggrep > /dev/null 2>&1; then
+    alias grep=ggrep ${grep_options}
+		unset GREP_OPTIONS
+fi
 
 # EDITOR
 export EDITOR=vim
