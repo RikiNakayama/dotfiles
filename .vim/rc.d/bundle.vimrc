@@ -44,6 +44,7 @@ NeoBundle 'tpope/vim-rails'
 
 " for Ruby
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'scrooloose/syntastic'
 
 NeoBundleLazy 'nosami/Omnisharp', {
     \    'autoload': {'filetypes': ['cs']},
@@ -93,3 +94,8 @@ let g:ref_phpmanual_path = $HOME . '/.vim/ref/php-chunked-xhtml'
 let NERDSpaceDelims=1 " 挿入コメントにスペースを入れる
 
 
+"------------------------------------
+" syntastic
+"------------------------------------
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['ruby'] }
+nnoremap <leader>sr :SyntasticCheck rubocop<CR>
