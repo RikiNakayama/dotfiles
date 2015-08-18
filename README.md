@@ -1,1 +1,3 @@
 # dotfiles
+## How to setup
+
