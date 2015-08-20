@@ -26,7 +26,7 @@ setopt nolistbeep
 # エイリアスでも補完
 setopt complete_aliases
 
-# key bind 
+# key bind
 bindkey -v
 
 # zsh editor
