@@ -64,6 +64,10 @@ autocmd BufReadPre *.cs :set shiftwidth=4
 autocmd BufReadPre *.rb :set expandtab
 autocmd BufReadPre *.rb :set tabstop=2
 autocmd BufReadPre *.rb :set shiftwidth=2
+" Rakefile
+autocmd BufReadPre *.rake :set expandtab
+autocmd BufReadPre *.rake :set tabstop=2
+autocmd BufReadPre *.rake :set shiftwidth=2
 
 
 " ファイル保存時コマンド
