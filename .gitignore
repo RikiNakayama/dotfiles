@@ -4,3 +4,4 @@
 .*_history
 .vim/bundle
 !.vim/bundle/neobundle.vim
+.ruby-version

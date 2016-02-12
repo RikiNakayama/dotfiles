@@ -46,6 +46,9 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'scrooloose/syntastic'
 
+" for elixir
+NeoBundle "elixir-lang/vim-elixir"
+
 NeoBundleLazy 'nosami/Omnisharp', {
     \    'autoload': {'filetypes': ['cs']},
     \    'build': {
