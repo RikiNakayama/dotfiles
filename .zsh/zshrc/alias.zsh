@@ -46,3 +46,4 @@ alias tree="tree -C"
 alias ping="python ~/scripts/punycode.encode.py ping"
 alias nslookup="python ~/scripts/punycode.encode.py nslookup"
 
+alias git=hub
