@@ -68,6 +68,10 @@ autocmd BufReadPre *.rb :set shiftwidth=2
 autocmd BufReadPre *.rake :set expandtab
 autocmd BufReadPre *.rake :set tabstop=2
 autocmd BufReadPre *.rake :set shiftwidth=2
+" Thrift
+autocmd BufReadPre *.thrift :set expandtab
+autocmd BufReadPre *.thrift :set tabstop=2
+autocmd BufReadPre *.thrift :set shiftwidth=2
 
 
 " ファイル保存時コマンド
