@@ -38,6 +38,7 @@ NeoBundle 'vim-scripts/csv.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'solarnz/thrift.vim'
 
 " for Rails
 NeoBundle 'tpope/vim-rails'
