@@ -49,6 +49,7 @@ NeoBundle 'scrooloose/syntastic'
 
 " for elixir
 NeoBundle "elixir-lang/vim-elixir"
+NeoBundle 'elmcast/elm-vim'
 
 NeoBundleLazy 'nosami/Omnisharp', {
     \    'autoload': {'filetypes': ['cs']},

@@ -8,6 +8,7 @@ path=(
 	# system
 	/bin(N-/)
 	/usr/local/bin(N-/)
+	/usr/local/sbin(N-/)
 	/usr/bin(N-/)
 	/usr/games(N-/)
 	# user
