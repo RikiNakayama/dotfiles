@@ -72,10 +72,6 @@ autocmd BufReadPre *.rake :set shiftwidth=2
 autocmd BufReadPre *.thrift :set expandtab
 autocmd BufReadPre *.thrift :set tabstop=2
 autocmd BufReadPre *.thrift :set shiftwidth=2
-" golang
-autocmd BufReadPre *.go :set expandtab
-autocmd BufReadPre *.go :set tabstop=2
-autocmd BufReadPre *.go :set shiftwidth=2
 
 
 " ファイル保存時コマンド
