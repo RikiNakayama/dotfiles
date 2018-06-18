@@ -1,1 +1,5 @@
-if which go > /dev/null; then export PATH="$HOME/.goenv/bin:$PATH"; eval "$(goenv init -)"; fi
+if which go > /dev/null; then
+  export PATH="$HOME/.goenv/shims:$PATH"
+  export GOPATH="$HOME/.go"
+  eval "$(goenv init -)"
+fi
