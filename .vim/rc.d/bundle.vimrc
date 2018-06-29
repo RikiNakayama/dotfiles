@@ -62,6 +62,9 @@ NeoBundle 'elmcast/elm-vim'
 " for Golang
 NeoBundle 'fatih/vim-go'
 
+" for Vue.js
+NeoBundle 'posva/vim-vue'
+
 NeoBundleLazy 'nosami/Omnisharp', {
     \    'autoload': {'filetypes': ['cs']},
     \    'build': {
