@@ -35,31 +35,3 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
-
-"-------------------------------------------
-" OmniSharp
-"-------------------------------------------
-"Set the type lookup function to use the preview window instead of the status line
-let g:OmniSharp_typeLookupInPreview = 1
-
-"Showmatch significantly slows down omnicomplete
-"when the first match contains parentheses.
-set noshowmatch
-
-"Super tab settings
-let g:SuperTabDefaultCompletionType = 'context'
-let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
-let g:SuperTabClosePreviewOnPopupClose = 1
-
-"don't autoselect first item in omnicomplete, show if only one item (for preview)
-set completeopt=longest,menuone,preview
-
-nnoremap <leader>g :OmniSharpGotoDefinition<cr>
-nnoremap <leader>t :OmniSharpTypeLookup<cr>
-nnoremap <leader>l :OmniSharpFindUsages<cr>
-" nnoremap <leader>syn :OmniSharpFindSyntaxErrors<cr>
-nnoremap <leader>act :OmniSharpGetCodeActions<cr>
-nnoremap <leader>imples :OmniSharpFindImplementations<cr>
-" nnoremap <leader>reload :OmniSharpReloadSolution<cr>

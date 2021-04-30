@@ -65,15 +65,6 @@ NeoBundle 'fatih/vim-go'
 " for Vue.js
 NeoBundle 'posva/vim-vue'
 
-NeoBundleLazy 'nosami/Omnisharp', {
-    \    'autoload': {'filetypes': ['cs']},
-    \    'build': {
-    \        'windows': 'MSBuild.exe server/OmniSharp.sln /p:Platform="Any CPU"',
-    \        'mac': 'xbuild server/OmniSharp.sln',
-    \        'unix': 'xbuild server/OmniSharp.sln',
-    \    }
-    \}
-
 call neobundle#end()
 
 filetype plugin indent on
