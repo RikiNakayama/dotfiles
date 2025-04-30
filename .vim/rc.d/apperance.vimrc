@@ -33,16 +33,7 @@ else
 endif
 
 " カラースキーマ
-" set background=dark
-if has('gui_running')
-	" autocmd GUIEnter * colorscheme solarized
-	autocmd GUIEnter * colorscheme zenburn
-	set iminsert=0 imsearch=0
-else
-	" colorscheme solarized
-	colorscheme zenburn
-	" hi Normal ctermbg=NONE
-endif
+set background=dark
 
 if has('kaoriya')
 	" 半透明処理
