@@ -8,7 +8,6 @@ alias sudo="sudo "
 alias where="command -v"
 alias jobs="jobs -l"
 alias j="jobs"
-alias vim="/usr/local/bin/vim"
 
 # ls
 case "${OSTYPE}" in
