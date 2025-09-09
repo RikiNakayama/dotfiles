@@ -42,5 +42,3 @@ alias diff="diff \
     --recursive"
 
 alias tree="tree -C"
-
-alias git=hub

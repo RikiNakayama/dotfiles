@@ -1,1 +1,1 @@
-if [ -d "$HOME/.nodebrew" ]; then export PATH="$HOME/.nodebrew/current/bin:$PATH"; fi
+command -v fnm > /dev/null && eval "$(fnm env --use-on-cd)"
